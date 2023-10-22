@@ -5,6 +5,7 @@ import HomeIcon from '@mui/icons-material/Home'
 function App() {
   return (
     <>
+      <span>TEST</span>
       <Button variant="text">Text</Button>
       <Button variant="contained">Contained</Button>
       <Button variant="outlined">Outlined</Button>
