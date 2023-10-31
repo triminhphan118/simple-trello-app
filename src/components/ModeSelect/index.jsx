@@ -17,7 +17,7 @@ function ModeSelect() {
   }
 
   return (
-    <FormControl x={{ m: 1, minWidth: 120 }} size="small">
+    <FormControl size="small" sx={{ minWidth: 120 }}>
       <InputLabel id="select-mode-label">Mode</InputLabel>
       <Select labelId="select-mode-label" id="select-mode" value={mode} label="Mode" onChange={handleChange}>
         <MenuItem value={'dark'}>
