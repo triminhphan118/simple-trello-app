@@ -57,14 +57,14 @@ function Profiles() {
           <Avatar
             sx={{ width: 28, height: 28, mr: 2 }}
             src="https://cdn.dribbble.com/userupload/3828718/file/original-fe81a0231432c19ee76c834ed7d81ca7.png?resize=752x"
-          />{' '}
+          />
           Profile
         </MenuItem>
         <MenuItem onClick={handleClose}>
           <Avatar
             sx={{ width: 28, height: 28, mr: 2 }}
             src="https://cdn.dribbble.com/userupload/3828718/file/original-fe81a0231432c19ee76c834ed7d81ca7.png?resize=752x"
-          />{' '}
+          />
           My account
         </MenuItem>
         <Divider />
