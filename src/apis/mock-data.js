@@ -1,3 +1,4 @@
+
 export const mockData = {
   board: {
     _id: 'board-id-01',
@@ -181,6 +182,20 @@ export const mockData = {
             memberIds: [],
             comments: [],
             attachments: []
+          }
+        ]
+      },
+      {
+        _id: 'column-id-04',
+        boardId: 'board-id-01',
+        title: 'Done Column 04',
+        cardOrderIds: ['card-id-12-placeholder-card'],
+        cards: [
+          {
+            _id: 'card-id-12-placeholder-card',
+            boardId: 'board-id-01',
+            columnId: 'column-id-04',
+            FE_PlaceholderCard: true
           }
         ]
       }
